@@ -1,0 +1,30 @@
+Code layout and naming conventions
+Please avoid white space.
+Classes declared with the curly brace on a new line.
+Functions/sub-routines/methods declared with curly braces on the same line as the method name
+e.g.
+class name
+{
+	void method(){
+		do
+	}
+}
+
+Control blocks:
+if statements
+if (statement){
+	foo()
+}
+
+else if 
+
+if (statement){
+	foo()
+} else(statement){
+	doo()
+}
+
+Naming:
+Classes camel case with capital at beginning i.e ClassName
+Variable name cammel case i.e. variableName
+Constants: capital separated by underscore i.e. CONSTANT_NAME
