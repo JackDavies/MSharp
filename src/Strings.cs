@@ -129,13 +129,13 @@ namespace Msharp {
                 break;
 
                 case "true":
-                return false;
+                return true;
                 break;
                 case "t":
-                return false;
+                return true;
                 break;
                 case "1":
-                return false;
+                return true;
                 break;
 
                 default:
