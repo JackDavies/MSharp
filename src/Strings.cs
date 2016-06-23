@@ -114,5 +114,35 @@ namespace Msharp {
             }
             return outputValue;
         }
+        
+                public static bool convertToBool(string lineIn) {
+            lineIn = lineIn.ToLower();
+            switch (lineIn) {
+                case "false":
+                    return false;
+                break;
+                case "f":
+                return false;
+                break;
+                case "0":
+                return false;
+                break;
+
+                case "true":
+                return false;
+                break;
+                case "t":
+                return false;
+                break;
+                case "1":
+                return false;
+                break;
+
+                default:
+                throw new Exception("Cannot interoperate string as boolean!");
+                break;
+            }
+            return false;
+        }
     }
 }
