@@ -1,2 +1,2 @@
 # MSharp
-Mathematics sharp is a open source mathematics simulation programming language
+M# is a fuctional programming language drieved from C# hence the name M#, Project Collaborators Jack Davies and Kyle Davies
